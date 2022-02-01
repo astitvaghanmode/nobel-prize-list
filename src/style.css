@@ -1,0 +1,147 @@
+.App {
+  font-family: Georgia, serif;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: white;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+
+  background: url("../public/img/image4.jpg");
+  background-repeat: no-repeat;
+  background-size: content;
+}
+
+.nobel-prize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  bottom: 130px;
+}
+.navsection {
+  margin: 5px 10px;
+  padding: 50px 750px;
+  position: relative;
+  bottom: 240px;
+  background-image: linear-gradient(to top, #fff 0%, #c3f5ff 0%);
+}
+
+.year select {
+  font-size: 30px;
+  margin: 50px 50px;
+  padding: 2px 2px;
+  background-color: #94959e;
+  color: white;
+
+  appearance: none;
+  border-radius: 5px;
+}
+.year {
+  position: relative;
+  bottom: 600px;
+  right: 200px;
+}
+
+.category select {
+  font-size: 30px;
+  margin: 10px 50px;
+  padding: 2px 2px;
+  background-color: #94959e;
+  color: white;
+
+  appearance: none;
+  border-radius: 5px;
+}
+.category {
+  position: relative;
+  bottom: 700px;
+  left: 100px;
+}
+.nobel {
+  margin: 0;
+  padding: 50px 10px;
+  position: relative;
+  left: -550px;
+  top: 400px;
+  border-radius: 20px;
+  background-image: linear-gradient(to left, #fff 0%, #c3f5ff 0%);
+}
+.nobel h3 {
+  font-size: 50px;
+}
+.nobel h1 {
+  font-size: 40px;
+}
+.nobel h2 {
+  font-size: 20px;
+}
+.image-logo {
+  width: 200px;
+  height: 180px;
+  position: relative;
+  left: 500px;
+  bottom: 100px;
+}
+.no {
+  position: relative;
+  bottom: 600px;
+}
+.award {
+  position: relative;
+  align-content: center;
+  bottom: 450px;
+  left: 80px;
+}
+.names {
+  margin: 10px 0;
+  position: relative;
+  align-content: center;
+  bottom: 265px;
+  right: 80px;
+}
+.person-name {
+  font-size: 30px;
+  position: relative;
+  align-content: center;
+  bottom: 200px;
+  right: 200px;
+}
+.prize-winner {
+  font-size: 30px;
+  position: relative;
+  align-content: center;
+  bottom: 200px;
+  right: 200px;
+}
+
+.cat {
+  font-size: 30px;
+  position: relative;
+  align-content: center;
+  bottom: 200px;
+  right: 200px;
+}
+.years {
+  position: relative;
+  align-content: center;
+  top: 80px;
+  right: 200px;
+}
+.winner {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 500px;
+  bottom: 100px;
+}
+.select-cat-year {
+  position: relative;
+  bottom: 13em;
+  right: 30px;
+}
